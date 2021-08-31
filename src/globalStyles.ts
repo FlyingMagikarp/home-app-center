@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-    background: black;
+    background: #293133;
     color: white;
     font-family: Ubuntu, Sans-Serif;
     max-width: inherit

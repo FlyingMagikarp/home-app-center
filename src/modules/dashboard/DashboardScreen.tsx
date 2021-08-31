@@ -31,9 +31,9 @@ const DashboardScreen = observer((props: Props) => {
                     APPS
                 </Typography>
                 <Grid container direction={"row"} justifyContent={"center"} alignItems={"center"} spacing={6}>
-                    <Grid item><Tile text={"Ämtliplan"} icon={"calendar"}/></Grid>
-                    <Grid item><Tile text={"Recies"} icon={"book"}/></Grid>
-                    <Grid item><Tile text={"Roomba?"} icon={"book"}/></Grid>
+                    <Grid item><Tile link={"dutyPlan"} text={"Ämtliplan"} icon={"calendar"}/></Grid>
+                    <Grid item><Tile link={"dutyPlan"} text={"Recies"} icon={"book"}/></Grid>
+                    <Grid item><Tile link={"dutyPlan"} text={"Roomba?"} icon={"book"}/></Grid>
                 </Grid>
             </div>
         </>

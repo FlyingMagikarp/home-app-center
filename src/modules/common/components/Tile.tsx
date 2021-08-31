@@ -7,6 +7,7 @@ import MenuBookIcon from '@material-ui/icons/MenuBook';
 import DateRangeIcon from '@material-ui/icons/DateRange';
 
 interface ITileProps {
+    link: string,
     text: string,
     icon: "book" | "calendar"
 }
@@ -29,7 +30,7 @@ const Tile = observer((props: ITileProps) => {
 
     return (
         <>
-            <RouterLink to={'/'} className={classes.navItemLink}>
+            <RouterLink to={props.link} className={classes.navItemLink}>
                 <Card className={classes.root} variant="outlined">
                     <CardContent>
                         <Typography variant="body2" component="p">
